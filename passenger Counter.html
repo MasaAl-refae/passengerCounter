@@ -19,22 +19,8 @@ people entered:
 <button id="save_id" onclick="sav()">SAVE</button>
 </div>
 <h3 id = "sav_el">Previous entries:  </h3>
-<script>
-    let incel  = document.getElementById("inc_el") ;
-    let save  = document.getElementById("sav_el") ;
-    let counter = 0 ;
-    function  inc ()
-    { counter++ ;
-        incel.innerText = counter ;
-    }
-    function sav ()
-    {
+<script src="pass.js">
 
-        save.innerText+= " "+ counter+" - ";
-        counter = 0 ;
-        incel.textContent = counter ;
-
-    }
 </script>
 </body>
 </html>
